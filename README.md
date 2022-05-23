@@ -5,19 +5,21 @@
 A ray tracer created by following the Ray Tracing in One Weekend books
 by Peter Shirley (+ added multi-threading support).
 
+### Features
+
+- Antialiasing
+- Spheres, rectangles
+- Diffuse, metal and dielectric surfaces
+- Motion blur
+- Solid, perlin noise and image textures
+- Light sources
+- Constant density volumes (smoke, fog)
+- Bounding volume hierarchies
+- Multi-threading: worker-dispatcher model
+
 ## Samples
 
-Here are two samples testing nearly all the ray tracer's features:
-
-- antialiasing
-- spheres, rectangles
-- diffuse, metal and dielectric surfaces
-- motion blur
-- solid, perlin noise and image textures
-- light sources
-- constant density volumes (smoke, fog)
-- bounding volume hierarchies
-- multi-threading: worker-dispatcher model
+Here are two samples testing nearly all the ray tracer's features.
 
 ![sample 1](./samples/800_2000.jpg)
 *Sample 1 (Ray Tracing: The Next Week)*
